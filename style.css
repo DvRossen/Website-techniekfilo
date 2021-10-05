@@ -1,0 +1,100 @@
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+body {
+  background-color: rgb(100, 150, 250);
+  font-size: 18px;
+  font-family: sans-serif;
+  color:rgb(100, 10, 255);
+}
+
+h1 {
+  color: black;
+  font-size: 2em;
+  font-family: serif;
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+  padding: 10vh;
+  background-color: rgb(0, 200, 150);
+}
+nav {
+    display:block;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+nav a {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+nav a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+nav div:hover {
+  background-color: rgb(0, 150, 75);
+}
+nav div {
+  padding: 10px 0;
+  flex-grow: 1;
+  text-align: center;
+  background-color: rgb(50, 100, 150);
+  cursor: pointer;
+  transition: background-color 0.4s ease-out;
+}
+
+h2 {
+  font-size: 1.2em;
+  font: bold;
+  text-align: center;
+}
+h2:hover{
+  color:rgb(100, 100, 255);
+}
+.sectie {
+  background-color: rgb(0, 200, 150);
+  padding: 5vh;
+  margin: 5vh;
+}
+ul {
+  color: black;
+  padding: 5vh;
+  margin: -7vh;
+}
+.image{
+  display: block;
+  width: 50%;
+  margin-left:auto;
+  margin-right:auto;
+}
+p{
+  color:black;
+
+}
+#secret a{
+  color: rgb(0, 200, 150);
+  text-decoration: none;
+}
+#secret a:hover{
+  color: rgb(0,210, 160)
+}
+audio {
+  margin-right:auto;
+  marign-left:auto;
+  text-align:center;
+}
+#credit a
+{
+  text-decoration: none;
+  color:rgb(0,0,0);
+}
+#credit a:hover {
+  color:rgb(100,100,100);
+}
