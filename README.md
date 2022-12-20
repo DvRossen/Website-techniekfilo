@@ -1,2 +1,2 @@
 # Website-techniekfilo
-Deze website is voor het vak techniek filosofie gebruikt
+this is the first website I made in a long while, quality might be bad but I'm keeping it for perservation
